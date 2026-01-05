@@ -130,7 +130,7 @@ document.querySelector(".visibility").innerHTML="Visibility:"+data.visibility/10
         case "Mist":
             document.querySelector(".weather-icon").attributes[0].value="assets/mist.png";
 
-            document.querySelector(".video-background").firstElementChild.src="assets/vecteezy_mist-moving-between-the-trees-ariel-view-rainy-weather-in_49318339.mp4"
+            document.querySelector(".video-background").firstElementChild.src="https://res.cloudinary.com/dnmujgfl6/video/upload/q_auto,f_auto/v1767623646/vecteezy_mist-moving-between-the-trees-ariel-view-rainy-weather-in_49318339_mmuyne.mp4"
 
             document.querySelector(".video-background").load();
             document.querySelector(".video-background").play();
@@ -138,7 +138,7 @@ document.querySelector(".visibility").innerHTML="Visibility:"+data.visibility/10
         case "Smoke":
             document.querySelector(".weather-icon").attributes[0].value="assets/mist.png";
 
-            document.querySelector(".video-background").firstElementChild.src="assets/vecteezy_mist-moving-between-the-trees-ariel-view-rainy-weather-in_49318339.mp4"
+            document.querySelector(".video-background").firstElementChild.src="https://res.cloudinary.com/dnmujgfl6/video/upload/q_auto,f_auto/v1767623646/vecteezy_mist-moving-between-the-trees-ariel-view-rainy-weather-in_49318339_mmuyne.mp4"
 
             document.querySelector(".video-background").load();
             document.querySelector(".video-background").play();
@@ -147,7 +147,7 @@ document.querySelector(".visibility").innerHTML="Visibility:"+data.visibility/10
         case "Clouds":
             document.querySelector(".weather-icon").attributes[0].value="assets/clouds.png";
 
-            document.querySelector(".video-background").firstElementChild.src="assets/clody.mp4"
+            document.querySelector(".video-background").firstElementChild.src="https://res.cloudinary.com/dnmujgfl6/video/upload/q_auto,f_auto/v1767615510/clody_ijvqyc.mp4"
 
             document.querySelector(".video-background").load();
             document.querySelector(".video-background").play();
@@ -155,7 +155,7 @@ document.querySelector(".visibility").innerHTML="Visibility:"+data.visibility/10
         case "Fog":
             document.querySelector(".weather-icon").attributes[0].value="assets/clouds.png";
 
-            document.querySelector(".video-background").firstElementChild.src="assets/foggy.mp4"
+            document.querySelector(".video-background").firstElementChild.src="https://res.cloudinary.com/dnmujgfl6/video/upload/q_auto,f_auto/v1767616773/foggy_sfn2xo.mp4"
 
             document.querySelector(".video-background").load();
             document.querySelector(".video-background").play();
@@ -164,7 +164,7 @@ document.querySelector(".visibility").innerHTML="Visibility:"+data.visibility/10
         case "Haze":
             document.querySelector(".weather-icon").attributes[0].value="assets/clouds.png";
 
-              document.querySelector(".video-background").firstElementChild.src="assets/haze.mp4"
+              document.querySelector(".video-background").firstElementChild.src="https://res.cloudinary.com/dnmujgfl6/video/upload/q_auto,f_auto/v1767616578/haze_dne0yj.mp4"
 
               document.querySelector(".video-background").load();
             document.querySelector(".video-background").play();
@@ -173,7 +173,7 @@ document.querySelector(".visibility").innerHTML="Visibility:"+data.visibility/10
         case "Rain":
             document.querySelector(".weather-icon").attributes[0].value="assets/rain.png";
 
-              document.querySelector(".video-background").firstElementChild.src="assets/rainy.mp4"
+              document.querySelector(".video-background").firstElementChild.src="https://res.cloudinary.com/dnmujgfl6/video/upload/q_auto,f_auto/v1767616468/rainy_z3ckbv.mp4"
 
               document.querySelector(".video-background").load();
             document.querySelector(".video-background").play();
@@ -181,7 +181,7 @@ document.querySelector(".visibility").innerHTML="Visibility:"+data.visibility/10
         case "Thunderstorm":
             document.querySelector(".weather-icon").attributes[0].value="assets/rain.png";
 
-              document.querySelector(".video-background").firstElementChild.src="assets/thunderstorm.mp4"
+              document.querySelector(".video-background").firstElementChild.src="https://res.cloudinary.com/dnmujgfl6/video/upload/q_auto,f_auto/v1767616390/thunderstorm_azp2mc.mp4"
 
               document.querySelector(".video-background").load();
             document.querySelector(".video-background").play();
@@ -190,7 +190,7 @@ document.querySelector(".visibility").innerHTML="Visibility:"+data.visibility/10
         case "Clear":
             document.querySelector(".weather-icon").attributes[0].value="assets/clear.png";
 
-              document.querySelector(".video-background").firstElementChild.src="assets/clear-sky.mp4"
+              document.querySelector(".video-background").firstElementChild.src="https://res.cloudinary.com/dnmujgfl6/video/upload/q_auto,f_auto/v1767616294/clear-sky_lbtwra.mp4"
 
               document.querySelector(".video-background").load();
             document.querySelector(".video-background").play();
@@ -199,7 +199,7 @@ document.querySelector(".visibility").innerHTML="Visibility:"+data.visibility/10
         case "Snow":
             document.querySelector(".weather-icon").attributes[0].value="assets/snow.png";
 
-              document.querySelector(".video-background").firstElementChild.src="assets/snow.mp4"
+              document.querySelector(".video-background").firstElementChild.src="https://res.cloudinary.com/dnmujgfl6/video/upload/q_auto,f_auto/v1767616144/snow_ethgut.mp4"
 
               document.querySelector(".video-background").load();
             document.querySelector(".video-background").play();
@@ -208,15 +208,16 @@ document.querySelector(".visibility").innerHTML="Visibility:"+data.visibility/10
             case "Drizzle":
             document.querySelector(".weather-icon").attributes[0].value="assets/drizzle.png";
 
-              document.querySelector(".video-background").firstElementChild.src="assets/drizzleved.mp4"
+              document.querySelector(".video-background").firstElementChild.src="https://res.cloudinary.com/dnmujgfl6/video/upload/q_auto,f_auto/v1767616468/rainy_z3ckbv.mp4"
 
               document.querySelector(".video-background").load();
             document.querySelector(".video-background").play();
             break;
     
         default:
+          //cloudy as default
             document.querySelector(".weather-icon").hidden=true;
-              document.querySelector(".video-background").firstElementChild.src="assets/clody.mp4"
+              document.querySelector(".video-background").firstElementChild.src="https://res.cloudinary.com/dnmujgfl6/video/upload/q_auto,f_auto/v1767615510/clody_ijvqyc.mp4"
               
               document.querySelector(".video-background").load();
             document.querySelector(".video-background").play();
