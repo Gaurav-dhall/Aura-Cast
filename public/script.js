@@ -190,7 +190,7 @@ document.querySelector(".visibility").innerHTML="Visibility:"+data.visibility/10
         case "Clear":
             document.querySelector(".weather-icon").attributes[0].value="assets/clear.png";
 
-              document.querySelector(".video-background").firstElementChild.src="assets/clear sky.mp4"
+              document.querySelector(".video-background").firstElementChild.src="assets/clear-sky.mp4"
 
               document.querySelector(".video-background").load();
             document.querySelector(".video-background").play();
