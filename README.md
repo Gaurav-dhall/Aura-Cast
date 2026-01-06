@@ -41,7 +41,12 @@ This is a **personal frontend project**.
 - **OpenWeatherMap API** for fetching real-time weather data
 
 ## 📸 Screenshots
-(Add screenshots of the UI here for better presentation)
+![Welcome Page](screenshots/home.png)
+![Home Page With Clear Background](screenshots/main1.png)
+![Home Page With Rainy Background](screenshots/main2.png)
+![Home Page With Cloudy Background](screenshots/main3.png)
+![Home Page With Mobile Viewport](screenshots/mob1.png)
+![Home Page With Mobile Viewport](screenshots/mob2.png)
 
 ## ⚙️ Installation & Setup
 ```bash
