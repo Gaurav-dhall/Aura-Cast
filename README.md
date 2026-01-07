@@ -55,7 +55,7 @@ cd Aura-Cast
 open index.html
 ```
 
-##📚 Learnings
+## 📚 Learnings
 
 Working with third-party REST APIs
 
@@ -67,7 +67,7 @@ Improving UI/UX using conditional rendering
 
 Creating immersive experiences using video backgrounds
 
-##📌 Project Status
+## 📌 Project Status
 
 ✅ Completed
 ✅ Deployed
